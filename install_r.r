@@ -20,6 +20,7 @@ install_cmdstan("/home/rstudio/.cmdstanr")
 
 install.packages(c("lmerTest",
 "bayesplot",
+"igraph",
 "dplyr",
 "tidyr",
 "readr",
