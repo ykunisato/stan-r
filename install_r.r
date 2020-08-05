@@ -18,9 +18,9 @@ library(cmdstanr)
 install_cmdstan("/home/rstudio/.cmdstanr")
 
 
-install.packages(c("tydyverse",
-"lmerTest",
-"brms",
+install.packages(c("lmerTest",
 "bayesplot",
 "bridgesampling",
 "psych"), error = TRUE, dependencies = TRUE)
+
+remotes::install_github("paul-buerkner/brms")
