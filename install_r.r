@@ -24,7 +24,6 @@ install.packages(c("lmerTest",
 "tidyr",
 "readr",
 "tibble",
+"brms",
 "bridgesampling",
 "psych"), error = TRUE, dependencies = TRUE)
-
-remotes::install_github("paul-buerkner/brms")
