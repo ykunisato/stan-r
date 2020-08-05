@@ -1,4 +1,4 @@
-FROM rocker/tidyverse
+FROM rocker/rstudio
 LABEL maintainer="Yoshihiko Kunisato <kunisato@psy.senshu-u.ac.jp>"
 
 # install clang for Rstan
