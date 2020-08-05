@@ -1,11 +1,3 @@
-# install R packages from CRAN
-install.packages(c("tydyverse",
-"lmerTest",
-"brms",
-"bayesplot",
-"bridgesampling",
-"psych"), error = TRUE, dependencies = TRUE)
-
 # install rstan
 install.packages("rstan", type = "source")
 
@@ -24,3 +16,11 @@ install.packages("cmdstanr", repos = c("https://mc-stan.org/r-packages/", getOpt
 install.packages("posterior", repos = c("https://mc-stan.org/r-packages/", getOption("repos")))
 library(cmdstanr)
 install_cmdstan("/home/rstudio/.cmdstanr")
+
+
+install.packages(c("tydyverse",
+"lmerTest",
+"brms",
+"bayesplot",
+"bridgesampling",
+"psych"), error = TRUE, dependencies = TRUE)
