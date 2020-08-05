@@ -1,6 +1,6 @@
 # Dockerfile of Rstan and cmdstanr
 
-This is a Dockerfile of Rstan and cmdstanr in Rstudio. This Dockerfile is based on rocker/rstudio.
+This is a Dockerfile of Rstan and cmdstanr in Rstudio. This Dockerfile is based on rocker/tidyverse.
 
 Maintainer is Yoshihiko Kunisato (ykunisato@psy.senshu-u.ac.jp)
 
